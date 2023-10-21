@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `change examples`
+To see an example displayed separately, you must change its reference in index.js.
+This Repo contain 9 examples whit the most important hook.
+
+### `useContex` this contains a basic example whit react-router-dom
+```
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <BrowserRouter>
+      <AppRouter/>
+    </BrowserRouter>
+);
+```
+
+
+### `ToDoApp` little example of a to-do list whit useReducer and localStorage
+```
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+     <TodoApp/>
+);
+```
