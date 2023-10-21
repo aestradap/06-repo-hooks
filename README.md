@@ -41,9 +41,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Change examples
 
-### `change examples`
 To see an example displayed separately, you must change its reference in index.js.
-This Repo contain 9 examples whit the most important hook.
+This Repo contain 9 examples with the most important hook.
 
 ### `useContex` this contains a basic example whit react-router-dom
 ```
